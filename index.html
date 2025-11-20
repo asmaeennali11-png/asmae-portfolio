@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Asmae Ennali</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Polices modernes depuis Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Asmae Ennali</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#education">Parcours</a>
+      <a href="#projects">Projets</a>
+      <a href="#skills">Compétences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Section Accueil -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1><span>Asmae Ennali</span></h1>
+    <h2>Étudiante en Smart Industry</h2>
+    <p>Passionnée par la robotique, les systèmes embarqués et l’automatisation industrielle.</p>
+    <div class="buttons">
+      <a href="#contact" class="btn-primary">Contactez-moi</a>
+      <a href="cv_asmae_ennali.pdf" download class="btn-secondary">Télécharger CV</a>
+    </div>
+  </div>
+  <div class="hero-img">
+    <img src="images/profil.jpg" alt="Photo Asmae Ennali">
+  </div>
+</section>
+
+  <!-- À propos -->
+  <section id="about">
+    <h2>À propos</h2>
+    <div class="timeline">
+    <p>Je suis étudiante à l’Université Sidi Mohamed Ben Abdellah, Faculté des Sciences de Fès, en Master Smart Industry.  
+    Passionnée par la robotique et l’automatisation, je m’intéresse à la conception de systèmes intelligents intégrant l’IoT, l’intelligence artificielle et les protocoles industriels.</p>
+    <p>Je recherche actuellement un stage de fin d’études (PFE) afin d’appliquer mes connaissances techniques et contribuer à des projets innovants dans le domaine de l’industrie du futur.</p>
+    </div>
+  </section>
+
+ <!-- ====== Parcours académique ====== -->
+<section id="education">
+  <h2>Parcours Académique</h2>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="circle"></div>
+      <div class="content">
+        <h3>Master en Smart Industry</h3>
+        <h4>2024 – 2025 (Dernière année)</h4>
+        <p><em>Université Sidi Mohamed Ben Abdellah, Fès, Maroc</em></p>
+        <ul>
+          <li>Spécialisé en automatisation, robotique, les systèmes MES (Manufacturing Execution System), les solutions ERP, ainsi que les systèmes MOM (Manufacturing Operations Management).</li>
+          <li>Projets réalisés en IoT, programmation embarquée et optimisation de ligne de production.</li>
+          <li><strong>Outils :</strong> Python, MATLAB, Arduino, ESP32, Blender, SolidWorks.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="circle"></div>
+      <div class="content">
+        <h3>Licence en Sciences de la Matière Physique</h3>
+        <h4>2023 – 2024</h4>
+        <p><em>Faculté des Sciences Dhar El Mehraz, Fès</em></p>
+        <ul>
+          <li>Étude approfondie de l’électronique, de la physique et des systèmes embarqués.</li>
+          <li>Réalisation d'un projet de fin d'étude avec l'Arduino .</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="circle"></div>
+      <div class="content">
+        <h3>DEUG en Sciences de la Matière Physique</h3>
+        <h4>2020 – 2023</h4>
+        <p><em>Université Sidi Mohamed Ben Abdellah, Fès</em></p>
+        <ul>
+          <li>Formation scientifique générale en physique et en mathématiques .</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="circle"></div>
+      <div class="content">
+        <h3>Baccalauréat en Sciences Physiques</h3>
+        <h4>2019 – 2020</h4>
+        <p><em>Lycée bno Hanie, Fès</em></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Projets -->
+  <section id="projects">
+    <h2>Mes Projets</h2>
+    <p class="projects-subtitle">
+      Projets académiques et personnels mettant en avant mes compétences en IoT, robotique, systèmes embarqués et modélisation.
+    </p>
+
+  <div class="projects-container">
+<!-- Projet 1 -->
+    <div class="project">
+      <img src="images/eclairage_public.jpg" alt="eclairage public" class="project-img">
+      <h3>Système d’éclairage public automatique avec Arduino</h3>
+      <p>système d'éclairage public basé sur Arduino UNO capable d'allumer la lumiére just quand la lumunisité ambiante faible et la présence des personnes.</p>
+      <button onclick="openModal('eclairage')">Voir Détails</button>
+    </div>
+<!-- Projet 2 -->
+    <div class="project">
+      <img src="images/robot_ligne.jpg" alt="Robot suiveur de ligne" class="project-img">
+      <h3>Robot suiveur de ligne</h3>
+      <p>Robot autonome basé sur Arduino UNO capable de suivre une ligne noire grâce à des capteurs infrarouges.</p>
+      <button onclick="openModal('robotLigne')">Voir Détails</button>
+    </div>
+<!-- Projet 3 -->
+    <div class="project">
+      <img src="images/robot_couleur.jpg" alt="Robot suiveur de couleur" class="project-img">
+      <h3>Robot suiveur de couleur avec capteur TCS3200</h3>
+      <p>Robot mobile utilisant un capteur TCS3200 pour détecter une couleur spécifique pour suivre les indications de direction.</p>
+      <button onclick="openModal('robotCouleur')">Voir Détails</button>
+    </div>
+<!-- Projet 4 -->
+    <div class="project">
+      <img src="images/irrigation.jpg" alt="Système d'irrigation intelligente" class="project-img">
+      <h3>Jumeau numérique pour un système d’irrigation intelligente</h3>
+      <p>Un système IoT de gestion d’eau avec ESP32, capteurs d’humidité et application mobile.</p>
+      <button onclick="openModal('irrigation')">Voir Détails</button>
+    </div>
+<!-- Projet 5 -->
+    <div class="project">
+      <img src="images/matlab.jpg" alt="modélisation matlab" class="project-img">
+      <h3>Modélisation des systèmes embarqués sous MATLAB/Simulink</h3>
+      <p>Un système IoT de gestion d’eau avec ESP32, capteurs d’humidité et application mobile.</p>
+      <button onclick="openModal('matlab')">Voir Détails</button>
+    </div>
+<!-- Projet 6 -->
+    <div class="project">
+      <img src="images/barrière.jpg" alt="barrière automatique" class="project-img">
+      <h3>système de barrière automatique pour les péages</h3>
+      <p>Un système intelegent basé sur IOT avec ESP32.</p>
+      <button onclick="openModal('barrière')">Voir Détails</button>
+    </div>
+  </section>
+  <!-- ===== Fenêtres modales pour les détails ===== -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+  <!-- Compétences -->
+  <section id="skills">
+    <h2>Compétences techniques</h2>
+    <ul>
+      <li>Programmation : C, C++, Python, Arduino</li>
+      <li>Modélisation & Simulation : MATLAB / Simulink, Tinkercad, Blender, SolidWorks</li>
+      <li>Systèmes embarqués : ESP32, Arduino, capteurs, automatisation</li>
+      <li>Communication : HTTP, MQTT, Modbus, LoRa (P2P)</li>
+      <li>Technologies : Cloud Computing, IA, Internet des Objets</li>
+    </ul>
+
+    <h2>Compétences personnelles</h2>
+    <ul>
+      <li>Adaptabilité et travail d’équipe</li>
+      <li>Résolution de problèmes techniques</li>
+      <li>Gestion du temps</li>
+      <li>Éthique et responsabilité</li>
+    </ul>
+  </section>
+
+ <!-- ===== Certifications ===== -->
+<section id="certifications">
+  <h2 class="section-title">Certifications</h2>
+  <p class="section-subtitle">
+    Certifications et accomplissements démontrant mes connaissances, ma maîtrise technique et ma volonté d’apprendre en permanence
+  </p>
+
+  <div class="cert-container">
+
+     <!-- Certification 1 -->
+    <div class="cert-card">
+      <div class="cert-icon">🏅</div>
+      <h3>compétition de robotique ROBOFZ</h3>
+      <p class="cert-org">FSDM – Université Sidi Mohamed Ben Abdellah</p>
+      <p class="cert-date">Décembre 2024</p>
+      <a href="certifs/robofz.pdf" target="_blank" class="cert-btn">📄 Voir Certificat</a>
+    </div>
+
+     <!-- Certification 2 -->
+    <div class="cert-card">
+      <div class="cert-icon">🏅</div>
+      <h3>certificate of AI system  </h3>
+      <p class="cert-org">FSDM_Université Sidi Mohamed Ben Abdellah</p>
+      <p class="cert-date">Février 2025</p>
+      <a href="certifs/ai.pdf" target="_blank" class="cert-btn">📄 Voir Certificat</a>
+    </div>
+
+    <!-- Certification 3 -->
+    <div class="cert-card">
+      <div class="cert-icon">🏅</div>
+      <h3>Festival du patrimoine mondial de Fès </h3>
+      <p class="cert-org">Centre culturel d'Ain Qadous </p>
+      <p class="cert-date">Avril 2025</p>
+      <a href="certifs/festival.pdf" target="_blank" class="cert-btn">📄 Voir Certificat</a>
+    </div>
+
+    <!-- Certification 4 -->
+    <div class="cert-card">
+      <div class="cert-icon">🏅</div>
+      <h3>compétition ARB 25</h3>
+      <p class="cert-org">Ecole Nationale Superieure d'arts et metiers de MEKNES  </p>
+      <p class="cert-date">Avril 2025</p>
+      <a href="certifs/arb25.pdf" target="_blank" class="cert-btn">📄 Voir Certificat</a>
+    </div>
+
+    <!-- Certification 5 -->
+    <div class="cert-card">
+      <div class="cert-icon">🏅</div>
+      <h3>Company Program</h3>
+      <p class="cert-org">Cité d'innovation</p>
+      <p class="cert-date">Juin 2025</p>
+      <a href="certifs/company.pdf" target="_blank" class="cert-btn">📄 Voir Certificat</a>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:asmae.ennali11@gmail.com">asmae.ennali11@gmail.com</a></p>
+    <p>📞 +212 697 597 321</p>
+    <p>📍 Fès, Morocco</p>
+    <p>🔗 <a href="https://linkedin.com/in/asmae-ennali" target="_blank">LinkedIn : linkedin.com/in/asmae-ennali</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Asmae Ennali - Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
