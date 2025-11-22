@@ -30,7 +30,7 @@ function openModal(projectId) {
   }
   if (projectId === "robotLigne") {
     content = `
-      <img src="images/robot_ligne.jpg" alt="Robot suiveur de ligne">
+      <img src="robot_ligne.jpg" alt="Robot suiveur de ligne">
       <h2>Robot suiveur de ligne</h2>
       <p><strong>Objectif :</strong> Concevoir un robot capable de suivre automatiquement une ligne tracée sur le sol grâce à des capteurs infrarouges.</p>
       <p><strong>Matériels utilisés :</strong></p>
@@ -47,7 +47,7 @@ function openModal(projectId) {
 
   if (projectId === "robotCouleur") {
     content = `
-      <img src="images/robot_couleur.jpg" alt="Robot suiveur de couleur">
+      <img src="robot_couleur.jpg" alt="Robot suiveur de couleur">
       <h2>Robot suiveur de couleur avec capteur TCS3200</h2>
       <p><strong>Objectif :</strong> Créer un robot autonome capable de naviguer dans un labyrinthe complexe.</p>
       <p><strong>Matériels utilisés :</strong></p> 
@@ -63,7 +63,7 @@ function openModal(projectId) {
 
   if (projectId === "irrigation") {
     content = `
-      <img src="images/irrigation.jpg" alt="Système d'irrigation intelligente" class="project-img">
+      <img src="irrigation.jpg" alt="Système d'irrigation intelligente" class="project-img">
       <h2>Jumeau numérique pour un système d’irrigation intelligente</h2>
       <p><strong>Objectif :</strong> Simuler et contrôler à distance un système d’irrigation automatisé basé sur l’IoT.</p>
       <p><strong>Matériels et logiciels utilisés :</strong></p>
@@ -82,7 +82,7 @@ function openModal(projectId) {
 
   if (projectId === "matlab") {
     content = `
-      <img src="images/matlab.jpg" alt="modélisation matlab" class="project-img">
+      <img src="matlab.jpg" alt="modélisation matlab" class="project-img">
       <h2>Modélisation des systèmes embarqués sous MATLAB/Simulink</h2>
       <p><strong>Objectif :</strong> Développer et simuler des modèles de systèmes embarqués pour l’analyse et la validation de performances.</p>
       <p><strong>Matériels et logiciels utilisés :</strong></p>
@@ -97,7 +97,7 @@ function openModal(projectId) {
 
   if (projectId === "barrière") {
     content = `
-      <img src="images/barrière.jpg" alt="barrière automatique" class="project-img">
+      <img src="barrière.jpg" alt="barrière automatique" class="project-img">
       <h2>système de barrière automatique pour les péages</h2>
       <p><strong>Objectif :</strong> fournir une solution intelligente, sécurisée et automatisée controler à distance en temps réel.</p>
       <p><strong>Matériels et logiciels utilisés :</strong>
