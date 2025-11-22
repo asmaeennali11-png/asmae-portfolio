@@ -15,7 +15,7 @@ function openModal(projectId) {
 
   if (projectId === "eclairage") {
     content =  `
-      <img src="images/eclairage_public.jpg" alt="eclairage public" class="project-img">
+      <img src="eclairage_public.jpg" alt="eclairage public" class="project-img">
       <h2>Système d’éclairage public automatique avec Arduino</h2>
       <p><strong>Objectif :</strong> Concevoir un système d’éclairage intelligent activé automatiquement selon la luminosité et la présence humaine.</p>
       <p><strong>Matériels utilisés :</strong></p> 
