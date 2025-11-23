@@ -259,5 +259,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
->>>>>>> beaa0e72701c7d106237d1ffea631f60ab3f0103
