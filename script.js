@@ -128,7 +128,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-=======
 // Scroll fluide
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener("click", function(e) {
