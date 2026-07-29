@@ -1178,3 +1178,111 @@ footer {
 .cert-btn:hover {
   background: #374151;
 }
+#experience{
+    padding:100px 8%;
+    background:#111827;
+}
+
+#experience h2{
+    color:#b9bdfd;
+    margin-bottom:50px;
+}
+
+.experience-img{
+
+    width:30%;
+
+    max-width:300px;
+
+    display:block;
+
+    margin:20px auto;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+
+}
+
+.techs{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+margin-top:20px;
+
+}
+
+.techs span{
+
+background:#6576ff;
+
+padding:8px 18px;
+
+border-radius:20px;
+
+font-size:.9rem;
+
+}
+/* ===== Galerie expérience ===== */
+
+.experience-gallery{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+margin-top:30px;
+
+}
+
+.gallery-item{
+
+background:#1b2133;
+
+border-radius:15px;
+
+overflow:hidden;
+
+transition:.3s;
+
+box-shadow:0 8px 25px rgba(0,0,0,.35);
+
+}
+
+.gallery-item:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 12px 30px rgba(78,94,211,.45);
+
+}
+
+.gallery-item img{
+
+width:60%;
+
+height:220px;
+
+object-fit:cover;
+
+display:block;
+
+}
+
+.gallery-item p{
+
+padding:15px;
+
+text-align:center;
+
+font-size:15px;
+
+color:#d6d6d6;
+
+}
